@@ -30,6 +30,6 @@ layout: none
     "time_zone": "{{ cruise.time_zone }}",
     "titles": [{% for title in cruise.titles %}
       "{{ title }}"{% if forloop.last == false %},{% endif %}{% endfor %}
-    ],
+    ]
   }{% if forloop.last == false %},{% endif %}
 {% endfor %}]

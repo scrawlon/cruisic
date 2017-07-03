@@ -1,0 +1,35 @@
+---
+layout: none
+---
+[{% for cruise in site.data.cruises %}
+  {
+    "id": "{{ cruise.id }}",
+    "artists": [{% for artist in cruise.artists %}
+      {
+        "name": "{{ artist.name }}",
+        "pronunciation": "{{ artist.pronunciation }}"
+      }{% if forloop.last == false %},{% endif %}{% endfor %}
+    ],
+    "cruise_line": "{{ cruise.cruise_line }}",
+    "cruise_ship": "{{ cruise.cruise_ship }}",
+    "data_source": "{{ cruise.data_source }}",
+    "dates": [{% for date in cruise.dates %}
+      "{{ date }}"{% if forloop.last == false %},{% endif %}{% endfor %}
+    ],
+    "description": "{{ cruise.description }}",
+    "news": "{{ cruise.news }}",
+    "organizers": [{% for organizer in cruise.organizers %}
+      "{{ organizer }}"{% if forloop.last == false %},{% endif %}{% endfor %}
+    ],
+    "ports": [{% for port in cruise.ports %}
+      {
+        "city": "{{ port.city }}",
+        "country": "{{ port.country }}"
+      }{% if forloop.last == false %},{% endif %}{% endfor %}
+    ],
+    "time_zone": "{{ cruise.time_zone }}",
+    "titles": [{% for title in cruise.titles %}
+      "{{ title }}"{% if forloop.last == false %},{% endif %}{% endfor %}
+    ],
+  }{% if forloop.last == false %},{% endif %}
+{% endfor %}]

@@ -1,0 +1,40 @@
+---
+- id: "cruise0001"
+  titles:
+    - "The Rock Boat"
+    - "T. R. B."
+  description: "2,500 MUSIC LOVERS. 5+ STAGES OF MUSIC. DOZENS OF YOUR FAVORITE ARTISTS. INFINITE NEW MEMORIES. UNLIMITED SOFT SERVE. ONE OPEN OCEAN.
+BEST WEEK OF YOUR YEAR."
+  data_source: "therockboat.com"
+  dates:
+    - "1/30/2018"
+    - "2/4/2018"
+  time_zone: "CST"
+  ports:
+    - city: "New Orleans"
+      country: "United States"
+    - city: "Progresso"
+      country: "Mexico"
+    - city: "Cozumel"
+      country: "Mexico"
+  organizers:
+    - "Sixthman"
+  cruise_line: "Norwegian Cruise Line"
+  cruise_ship: "Pearl"
+  artists:
+    - name: "Sister Hazel"
+    - name: "Barenaked Ladies"
+    - name: "NEEDTOBREATHE"
+      pronunciation: "Need To Breathe"
+    - name: "Will Hoge"
+    - name: "Drew Holcomb and the Neighbors"
+    - name: "Cowboy Mouth"
+    - name: "Colony House"
+    - name: "Welshly Arms"
+    - name: "Melodime"
+    - name: "Larkin Poe"
+    - name: "Andy Frasco and the U. N."
+    - name: "Wild Adriatic"
+    - name: "The Dead South"
+    - name: "The Georgia Flood"
+  news: "This cruise is sold out. Visit therockboat.com to join the waiting list"

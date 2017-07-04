@@ -6,9 +6,8 @@
   description: "2,500 MUSIC LOVERS. 5+ STAGES OF MUSIC. DOZENS OF YOUR FAVORITE ARTISTS. INFINITE NEW MEMORIES. UNLIMITED SOFT SERVE. ONE OPEN OCEAN.
 BEST WEEK OF YOUR YEAR."
   data_source: "therockboat.com"
-  dates:
-    - "1/30/2018"
-    - "2/4/2018"
+  date_start: "2018-01-30"
+  date_end: "2018-02-04"
   time_zone: "CST"
   ports:
     - city: "New Orleans"

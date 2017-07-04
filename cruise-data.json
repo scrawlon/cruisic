@@ -13,9 +13,8 @@ layout: none
     "cruise_line": "{{ cruise.cruise_line }}",
     "cruise_ship": "{{ cruise.cruise_ship }}",
     "data_source": "{{ cruise.data_source }}",
-    "dates": [{% for date in cruise.dates %}
-      "{{ date }}"{% if forloop.last == false %},{% endif %}{% endfor %}
-    ],
+    "date_end": "{{ cruise.date_end }}",
+    "date_start": "{{ cruise.date_start }}",
     "description": "{{ cruise.description }}",
     "news": "{{ cruise.news }}",
     "organizers": [{% for organizer in cruise.organizers %}
